@@ -25,10 +25,10 @@ const MarketingSpecialization = () => {
   ];
   return (
     <div className="sm:mt-16">
-      <h1 className="text-5xl font-semibold text-primary sm:text-4xl ">
+      <h1 className="text-5xl font-semibold text-primary sm:text-5xl ">
         Want to boost your business growth ?
       </h1>
-      <h1 className="mt-10 font-semibold text-7xl text-primary sm:text-5xl">
+      <h1 className="mt-10 font-semibold sm:mt-20 text-7xl text-primary sm:text-6xl">
         The <b className=" text-secondary">SOLUTION</b> is here..
       </h1>
       <p className="mt-6 text-xl text-justify text-grey-600 sm:mt-6">
@@ -38,7 +38,7 @@ const MarketingSpecialization = () => {
         strategies commonly recognized as successful regardless of industry.
         Here’s what we found, in no particular order:
       </p>
-      <div className="grid grid-cols-2 gap-12 mt-24 md:gap-5 sm:grid-cols-1">
+      <div className="grid grid-cols-2 gap-12 mt-20 md:gap-5 sm:grid-cols-1 sm:mt-16">
         {strategies?.map((item) => (
           <div className="flex flex-col gap-3 p-6 mt-12 space-y-5 duration-300 transform border-2 rounded border-primary h-92 hover:scale-90">
             <h1 className="p-2 text-2xl font-semibold text-center bg-white border-2 border-black rounded -mt-11 text-secondary">
