@@ -27,7 +27,11 @@ const WhyMarketing = () => {
         How you market your business determines if the enterprise will be
         successful or not. Marketing is a tool used to create and maintain
         demand, relevance, reputation, competition and more. Without it, your
-        business is likely to close down due to lack of sales.
+        business is likely to close down due to lack of sales. How you market
+        your business determines if the enterprise will be successful or not.
+        Marketing is a tool used to create and maintain demand, relevance,
+        reputation, competition and more. Without it, your business is likely to
+        close down due to lack of sales.
       </p>
     </div>
   );

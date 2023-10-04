@@ -65,7 +65,7 @@ const ClientsList = () => {
       <div className="w-full h-40 rounded-b-full sm:hidden sm:h-auto bg-primary"></div>
 
       {/* <div className=""> */}
-      <div className="flex items-end justify-center -mt-32 space-x-10 text-gray-500 sm:space-x-4 sm:p-3">
+      <div className="flex items-end justify-center -mt-32 space-x-10 text-gray-500 sm:space-x-4 sm:p-3 sm:mt-4">
         {selectedClients > 0 && (
           <i
             className="text-4xl sm:text-3xl hover:text-gray-700 ri-arrow-left-line hover:cursor-pointer "

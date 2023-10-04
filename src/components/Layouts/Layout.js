@@ -4,28 +4,33 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 const Layout = ({ children }) => {
   const location = useLocation();
   const navigate = useNavigate();
+
   console.log(location);
   const menuItems = [
     {
       title: "Home",
       path: "/",
       icon: "ri-home-3-line",
+      path_link: "/intro",
     },
     {
       title: "About",
       path: "/about",
       icon: "ri-information-line",
+      path_link: "/intro",
     },
 
     {
       title: "Clients",
       path: "/clients",
       icon: "ri-user-location-fill",
+      path_link: "/intro",
     },
     {
       title: "Contact",
       path: "/contact",
       icon: "ri-contacts-line",
+      path_link: "/address",
     },
   ];
   return (
@@ -63,6 +68,7 @@ const Layout = ({ children }) => {
                 )}
                 <Link
                   to={`${item.path}`}
+                  path={`${item.path_link}`}
                   className={`text-secondary text-xl ${
                     item.path !== location.pathname && "sm:hidden"
                   } `}
