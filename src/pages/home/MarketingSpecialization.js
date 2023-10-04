@@ -25,7 +25,7 @@ const MarketingSpecialization = () => {
   ];
   return (
     <div className="sm:mt-16">
-      <h1 className="text-5xl font-semibold text-primary sm:text-3xl ">
+      <h1 className="text-5xl font-semibold text-primary sm:text-4xl ">
         Want to boost your business growth ?
       </h1>
       <h1 className="mt-10 font-semibold text-7xl text-primary sm:text-5xl">

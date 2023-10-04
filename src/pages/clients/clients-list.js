@@ -61,33 +61,36 @@ const ClientsList = () => {
   };
   console.log("sel", selectedClients);
   return (
-    <div className="px-3">
-      <div className="w-full h-40 rounded-b-full sm:hidden sm:h-72 bg-primary"></div>
+    <div className="">
+      <div className="w-full h-40 rounded-b-full sm:hidden sm:h-auto bg-primary"></div>
 
       {/* <div className=""> */}
-      <div className="flex items-end justify-center -mt-32 space-x-10 text-gray-500">
+      <div className="flex items-end justify-center -mt-32 space-x-10 text-gray-500 sm:space-x-4 sm:p-3">
         {selectedClients > 0 && (
           <i
-            className="text-4xl hover:text-gray-700 ri-arrow-left-line hover:cursor-pointer "
+            className="text-4xl sm:text-3xl hover:text-gray-700 ri-arrow-left-line hover:cursor-pointer "
             onClick={Previous}
           ></i>
         )}
-        <div className="p-5 bg-white border shadow-md w-[500px] rounded h-[300px]">
+        <div className="p-6 bg-white border shadow-md w-[500px] rounded h-[300px] sm:h-auto">
           <div className="flex justify-between space-x-10  h-[100px]">
-            <img src={clients[selectedClients]?.logo} className="w-20 h-20" />
+            <img
+              src={clients[selectedClients]?.logo}
+              className="w-20 h-20 sm:h-16 sm:w-16"
+            />
 
             <h1 className="text-4xl font-semibold text-primary">
               {clients[selectedClients]?.name}
             </h1>
           </div>
-          <p className="mt-8 text-justify">
+          <p className="my-8 text-justify ">
             {" "}
             {clients[selectedClients]?.description}
           </p>
         </div>
         {selectedClients !== clients?.length - 1 && (
           <i
-            className="text-4xl hover:text-gray-700 ri-arrow-right-line hover:cursor-pointer "
+            className="text-4xl sm:text-3xl hover:text-gray-700 ri-arrow-right-line hover:cursor-pointer "
             onClick={Next}
           ></i>
         )}

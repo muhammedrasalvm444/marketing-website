@@ -18,11 +18,11 @@ const Numbers = () => {
     },
   ];
   return (
-    <div className="mt-12 mx-36 sm:mx-3">
+    <div className="mt-12 px-36 sm:px-3 md:px-5">
       <h1 className="my-4 text-2xl">
         Until today we have provide our services.
       </h1>
-      <div className="flex justify-between p-6 bg-secondary sm:h-40">
+      <div className="flex justify-between p-6 bg-secondary sm:h-auto sm:flex-col sm:space-y-10">
         {data?.map((item) => (
           <div className="flex flex-col items-center m-2">
             <h1 className="font-semibold text-9xl text-secondery sm:text-5xl text-primary">

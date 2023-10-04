@@ -2,9 +2,9 @@ import React from "react";
 
 const Intro = () => {
   return (
-    <div className="grid items-center h-screen grid-cols-2 mb-0 sm:grid-cols-1 sm:mt-5">
-      <div className="flex flex-col space-y-10 sm:space-y-5">
-        <h1 className="font-semibold text-7xl sm:text-5xl text-primary ">
+    <div className="grid items-center h-screen grid-cols-2 mb-0 sm:grid-cols-1 sm:mt-16 ">
+      <div className="flex flex-col space-y-10 sm:space-y-10">
+        <h1 className="font-semibold text-7xl sm:text-5xl text-primary md:text-6xl ">
           The Best
           <b className=" text-secondary"> Marketing</b>
         </h1>
@@ -16,7 +16,7 @@ const Intro = () => {
           Get started
         </button>
       </div>
-      <div className="p-10 md:p-6 sm:p-6">
+      <div className="p-10 md:p-6 sm:p-5">
         <lottie-player
           src="https://assets7.lottiefiles.com/packages/lf20_hwcplx4x.json"
           background="transparent"

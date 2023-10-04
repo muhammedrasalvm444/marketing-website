@@ -22,9 +22,9 @@ const WhyChooseUs = () => {
     },
   ];
   return (
-    <div className="mx-32 mt-24 shadow-md sm:mx-2">
+    <div className="mx-32 mt-24 shadow-md sm:mx-4">
       <div className="flex items-center justify-center w-full h-40 text-center text-white bg-primary">
-        <h1 className="items-center font-semibold text-center text-7xl md:text-6xl">
+        <h1 className="items-center font-semibold text-center text-7xl md:text-5xl">
           Why Choose Us..?
         </h1>
       </div>
