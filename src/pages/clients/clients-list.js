@@ -73,7 +73,7 @@ const ClientsList = () => {
           ></i>
         )}
         <div className="p-6 bg-white border shadow-md w-[500px] rounded h-[300px] sm:h-auto">
-          <div className="flex justify-between space-x-10  h-[100px]">
+          <div className="flex justify-between space-x-10  h-[100px] sm:flex-col sm:space-y-6 sm:space-x-0 sm:mb-12">
             <img
               src={clients[selectedClients]?.logo}
               className="w-20 h-20 sm:h-16 sm:w-16"
