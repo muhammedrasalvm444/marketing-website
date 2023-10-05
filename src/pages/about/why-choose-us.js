@@ -22,13 +22,13 @@ const WhyChooseUs = () => {
     },
   ];
   return (
-    <div className="mx-32 mt-24 shadow-md sm:mx-4">
+    <div className="mx-32 mt-24 shadow-md lg:mx-4">
       <div className="flex items-center justify-center w-full h-40 text-center text-white bg-primary">
         <h1 className="items-center font-semibold text-center text-7xl md:text-5xl">
           Why Choose Us..?
         </h1>
       </div>
-      <div className="grid grid-cols-3 gap-10 py-10 border-t-2 sm:grid-cols-1 px-7 sm:px-0">
+      <div className="grid grid-cols-3 gap-10 py-10 border-t-2 sm:grid-cols-1 md:grid-cols-2 px-7 sm:px-0">
         {items?.map((item) => {
           return (
             <div className="flex flex-col items-center gap-3 p-5 space-y-4 duration-300 transform bg-white border-4 rounded shadow-md border-t-red-500 hover:scale-105">

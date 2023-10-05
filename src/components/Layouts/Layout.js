@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
       <div className="overflow-x-hidden pb-44">{children}</div>
 
       {/* footer */}
-      <div className="fixed left-0 right-0 bottom-10 sm:bottom-0">
+      <div className="fixed left-0 right-0 z-10 bottom-10 sm:bottom-0">
         <div className="flex justify-center w-full">
           {menuItems.map((item, index) => (
             <div className="flex flex-col items-center justify-end">
