@@ -18,7 +18,7 @@ const Numbers = () => {
     },
   ];
   return (
-    <div className="mt-12 px-36 sm:px-3 md:px-5">
+    <div className="mt-12 px-36 md:px-4">
       <h1 className="my-4 text-2xl">
         Until today we have provide our services.
       </h1>
